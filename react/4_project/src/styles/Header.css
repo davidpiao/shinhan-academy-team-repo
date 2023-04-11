@@ -1,0 +1,68 @@
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  .headerTop > img {
+    width: 200px;
+    cursor: pointer;
+  }
+  #logo1 {
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+  .login {
+    position: absolute;
+    color: #000;
+    font-size: 13px;
+    display: flex;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+  .menu{
+    width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+    z-index: 99999;
+  }
+  /* 없으면 왼쪽에 공간이 생김 */
+  .menu ul{
+    padding: 0;
+  }
+  .menu > ul > li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+  }
+  .menu > ul > li> ul{
+    display: none;
+  }
+  .menu > ul > li:hover > ul{
+    display: block;
+  }
+  .menu li> a{
+    display: block;
+  }
+  .menu >ul li{
+    list-style-type: none;
+    background-color: #fff;
+  }
+  .menu >ul li:hover{
+    background-color: #c5c5c5;
+  }

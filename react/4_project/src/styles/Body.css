@@ -1,0 +1,53 @@
+.body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topbanner {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 1200px;
+  height: 350px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container > .board {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.container > .video {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.bottombanner {
+  width: 1200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: black;
+  margin: 20px;
+  font-size: 70px;
+  cursor: pointer;
+}

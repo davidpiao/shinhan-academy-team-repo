@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #363636;
+  color: #999;
+  padding: 30px 0;
+  clear: both;
+}
+
+.footer>.size {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer>.size>.info>p {
+  line-height: 30px;
+}
+
+.footer .sns_area {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer .sns_area a {
+  margin: 0 5px;
+}
