@@ -1,0 +1,11 @@
+.images {
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .body > .images > .section {
+    width: 31.333%;
+    float: left;
+    margin-left: 1.3333%;
+  }
